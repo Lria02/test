@@ -1,0 +1,209 @@
+#gif-container {
+    position: fixed; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    z-index: 9999; 
+}
+
+.flipped-image {
+
+    position: fixed;
+    right: 0;
+    margin-top: 180px;
+    margin-right: 150px;
+}
+.heart {
+    position: fixed;
+    align-items: center;
+    margin-top: 75%;
+}
+
+.intro {
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    color: aliceblue;
+    font-size: 60px;
+    text-align: left;
+    margin-top: 250px;
+    margin-left: 250px;
+}
+
+.intro2 {
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    color: aliceblue;
+    font-size: 35px;
+    text-align: left;
+    margin-top: 325px;
+    margin-left: 250px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.Programming {
+    color: white;
+    position: absolute;
+    top: 1400px;
+    margin-left: 900px;
+    font-size: 20px;
+}
+
+.Languages {
+    color: white;
+    position: absolute;
+    top: 1400px;
+    margin-left: 500px;
+    font-size: 20px;
+}
+
+.Education {
+    color: white;
+    position: absolute;
+    top: 1400px;
+    font-size: 20px;
+}
+
+.AboutMeStyle {
+    font-size: 25px;
+    color: white;
+    position: absolute;
+    top: 1050px;
+p {
+    font-size: 20px;
+}
+a {
+    font-size: 13px;
+    margin-left: 15px;
+}
+}
+
+#AboutMe {
+    margin-top: 50%; /* Adjust margin-top to account for fixed header */
+    padding-bottom: 55%;
+    background-color: rgb(0, 0, 0);
+}
+
+#Projects {
+    margin-top: 0%; /* Adjust margin-top to account for fixed header */
+    padding-bottom: 55%;
+    background-color: rgb(0, 0, 0);
+}
+.Projects-Style {
+    color: white;
+    position: absolute;
+    top: 2050px;
+    font-size: 25px;
+}
+.Complete-Project {
+    color: white;
+    position: absolute;
+    top: 2200px;
+    font-size: 18px;
+}
+.Extra {
+    color: white;
+    position: absolute;
+    top: 2400px;
+    font-size: 18px;
+}
+.Extra ul li {
+    margin-top: 10px;
+}
+
+#Contacts {
+    margin-top: 0;
+    padding-bottom: 49%;
+    background-color: rgb(0, 0, 0);
+}
+.ContactStyle {
+    color: white;
+    position: absolute;
+    top: 3050px;
+    font-size: 25px;
+}
+.ContactStyle ul {
+    margin-top: 50%;
+}
+.ContactStyle ul li {
+    margin-top: 50px;
+}
+
+.down-arrow {
+    color: aliceblue;
+    position: absolute;
+    bottom: 20px; /* Adjust bottom position */
+    left: 450px; 
+    transform: translateX(-50%);
+    font-size: 50px;
+    cursor: pointer;
+    animation: arrowAnimation 0.5s infinite alternate;
+}
+@keyframes arrowAnimation {
+    from {
+        bottom: 30%; /* Start position */
+    }
+    to {
+        bottom: 32%; /* End position */
+    }
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #000000;
+}
+
+.circle-container {
+    width: 500px; /* Adjust the size of the circle */
+    height: 500px;
+    border-radius: 50%; /* Make it circular */
+    overflow: hidden; /* Hide overflowing content */
+    position: absolute;
+    right: 0;
+    margin-top: 180px;
+    margin-right: 250px;
+}
+.circle-container img {
+    width: 100%; /* Make the image fill the container */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 50%; /* Ensure the image is also circular */
+    object-fit: cover; /* Cover the entire area of the container */
+}
+
+header {
+    background-color: rgba(255, 255, 255, 0.566); /* Background color of the header */
+    padding: 10px; /* Add some padding for better visual */
+    position: fixed; /* Fix the header at the top */
+    width: 100%; /* Make the header span the entire width */
+    z-index: 999; /* Ensure the header stays on top of other content */
+}
+
+#main-content {
+    padding-top: 60px; /* Add padding to the top of main content to account for fixed header */
+}
+
+nav ul {
+    font-size: 30px;
+    list-style-type: none; /* Remove default list styling */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    text-align: right; /* Align list items to the right */
+    margin-right: 50px;
+}
+
+nav ul li {
+    display: inline; /* Display list items horizontally */
+    margin-left: 25px; /* Add some spacing between items */
+}
+
+nav ul li:first-child {
+    margin-left: 0; /* Remove margin from the first item */
+}
+
+nav ul li a {
+    text-decoration: none; /* Remove default underline from links */
+    color: #333; /* Set text color */
+    font-weight: bold; /* Make text bold */
+}
